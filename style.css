@@ -1,0 +1,116 @@
+body{
+background-color: #ded9d9;
+font-family: "MS Trebuchet", Helvetica;
+}
+ul, ol {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul{
+  background-color: grey;
+}
+#newsltr h2 {
+  text-align: center;
+}
+#header {
+  position: fixed;
+  background-color: white;
+  display: flex;
+  top: 0;
+  margin-top: 0;
+}
+li a {
+  display: block;
+  float: right;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+}
+
+
+#form {
+ text-align: center;
+ margin-bottom: 50px;
+}
+#nav-bar {
+position: fixed;
+width: 100%;
+
+}
+#newsltr {
+  text-align: justify;
+  margin-top: 100px;
+}
+
+#btn {
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+#email {
+  height: 30px;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#submit {
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+  background-color: cyan;
+}
+p {
+  font-size: 0.5rem;
+}
+@media (min-width: 600px) {
+    p {
+       font-size: 1rem;
+    }
+  }
+#demo {
+  display: flex;
+  margin: auto;
+}
+#video {
+  display: block;
+  margin: 100px auto;
+  max-width: 100%;
+}
+
+#pricing {
+  display: flex;
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+
+#masterclass {
+  width: 30%;
+  border: 2px solid black;
+}
+
+#mixology {
+  width: 30%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#pairing {
+  width: 30%;
+  border: 2px solid black;
+}
+
+footer {
+  text-align: center;
+  margin-right: 0px;
+  background-color: grey;
+  height: 100px;
+  width: auto;
+}
